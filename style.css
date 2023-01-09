@@ -7,6 +7,7 @@
 
 body {
     background-color: #08101e;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header {
@@ -20,15 +21,28 @@ header {
     margin: 0 auto;
 }
 
+.header-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 .menu-link {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 80px;
     color: #FFFFFF;
     text-decoration: none;
     padding: 40px 20px;
+    height: 22px;
+}
+
+.container__content {
+    display: flex;
+    justify-content: center;
 }
 
 .small-header {
@@ -50,6 +64,7 @@ header {
     line-height: 130%;
     color: #FFFFFF;
     margin-bottom: 40px;
+    width: 604px;
 }
 
 .main-dc {
@@ -61,6 +76,13 @@ header {
     color: #FFFFFF;
     opacity: 0.7;
     margin-bottom: 50px;
+    width: 558px;
+}
+
+.button-box {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
 
 .content-button {
@@ -77,8 +99,22 @@ header {
     flex: none;
     order: 0;
     flex-grow: 0;
+    display: flex;
+}
+
+.content-image {
+    margin-left: 88px;
 }
 
 footer {
     margin-top: 200px;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+.container__footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 144px;
 }
