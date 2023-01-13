@@ -1,0 +1,19 @@
+.main__dc {
+    @include txt('Open Sans', normal, 600, 18px, 160%, #FFFFFF, 0.7);
+}
+
+.ds_description {
+    @include txt('Open Sans', normal, 600, 18px, 160%, #FFFFFF, 0.7);
+}
+
+.grid__text {
+    @include txt('Open Sans', normal, 600, 18px, 160%, #FFFFFF, 0.7);
+}
+
+.grid__big__text {
+    @include txt('Open Sans', normal, 600, 16px, 160%, #FFFFFF, 0.7);
+}
+
+.about_description {
+    @include txt('Open Sans', normal, 600, 16px, 160%, #FFFFFF, 0.7);
+}
