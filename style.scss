@@ -391,6 +391,10 @@
         margin-bottom: 20px;
     }
     
+    .accordion {
+        --bs-body-bg: #eceef1;
+    }
+    
     footer {
         display: flex;
         justify-content: center;
@@ -449,7 +453,7 @@
     .footer__info {
         display: flex;
         margin-bottom: 25px;
-        align-items: center;
+        align-items: flex-start;
     }
     
     .right__image {
